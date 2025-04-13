@@ -98,6 +98,7 @@ export default function Home() {
       <section id="about" className="max-w-5xl mx-auto py-20 px-4">
         <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }}>
           <h2 className="text-3xl font-bold mb-6 text-center">About Me</h2>
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="text-gray-300 text-md leading-relaxed text-center max-w-3xl mx-auto">
             I&#39;m a passionate Software Developer with strong foundations in Computer Science and experience across Web Development, Machine Learning, and Cybersecurity.
             I love solving real-world problems with creative technical solutions. I&#39;m currently pursuing my MS in CS at UT Dallas and actively looking for internship opportunities in Full Stack or Backend roles.

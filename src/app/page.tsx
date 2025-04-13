@@ -99,12 +99,13 @@ export default function Home() {
         <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }}>
           <h2 className="text-3xl font-bold mb-6 text-center">About Me</h2>
           <p className="text-gray-300 text-md leading-relaxed text-center max-w-3xl mx-auto">
-            I'm a passionate Software Developer with strong foundations in Computer Science and experience across Web Development, Machine Learning, and Cybersecurity.
-            I love solving real-world problems with creative technical solutions. I'm currently pursuing my MS in CS at UT Dallas and actively looking for internship opportunities in Full Stack or Backend roles.
+            I&#39;m a passionate Software Developer with strong foundations in Computer Science and experience across Web Development, Machine Learning, and Cybersecurity.
+            I love solving real-world problems with creative technical solutions. I&#39;m currently pursuing my MS in CS at UT Dallas and actively looking for internship opportunities in Full Stack or Backend roles.
           </p>
           <p className="text-gray-400 mt-4 text-sm text-center">
-            Fun fact: With a developer’s logic and a designer’s intuition, I enjoy building experiences that look as good as they work.
+            Fun fact: With a developer&#8217;s logic and a designer&#8217;s intuition, I enjoy building experiences that look as good as they work.
           </p>
+
         </motion.div>
       </section>
 

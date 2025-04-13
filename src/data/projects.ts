@@ -1,3 +1,13 @@
+export type ProjectType = {
+  slug: string;
+  title: string;
+  description: string;
+  imageUrl: string;
+  technologies?: string[];
+  githubUrl?: string;
+  pdfLink?: string;
+  liveUrl?: string;
+};
 export const projects = [
     //3D
     {

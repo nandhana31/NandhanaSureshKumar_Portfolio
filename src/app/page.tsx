@@ -67,7 +67,7 @@ export default function Home() {
         <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center w-full max-w-7xl">
           <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }} viewport={{ once: true }} className="text-center md:text-left">
             <div className="relative w-[180px] h-[180px] mx-auto md:mx-0 rounded-2xl overflow-hidden shadow-2xl ring-2 ring-white/10 backdrop-blur-lg">
-              <Image src="/images/profile.jpg" alt="Profile" fill className="object-cover" />
+              <Image src="/images/profilepic.jpg" alt="Profile" fill className="object-cover" />
             </div>
             <h2 className="text-3xl font-semibold mt-6">Nandhana Suresh Kumar</h2>
             <p className="text-sm text-gray-400">Software Developer · Dallas, TX</p>

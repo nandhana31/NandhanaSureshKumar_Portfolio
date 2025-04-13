@@ -103,7 +103,7 @@ export default function Home() {
             I love solving real-world problems with creative technical solutions. I'm currently pursuing my MS in CS at UT Dallas and actively looking for internship opportunities in Full Stack or Backend roles.
           </p>
           <p className="text-gray-400 mt-4 text-sm text-center">
-            Fun fact: I also enjoy design, UI/UX, and making things that just *feel* good to use!
+            Fun fact: With a developer’s logic and a designer’s intuition, I enjoy building experiences that look as good as they work.
           </p>
         </motion.div>
       </section>

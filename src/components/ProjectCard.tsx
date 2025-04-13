@@ -1,7 +1,8 @@
 import Image from "next/image";
+import { ProjectType } from "@/data/projects";
 import { FaGithub, FaFilePdf, FaExternalLinkAlt } from "react-icons/fa";
 
-export default function ProjectCard({ project }: any) {
+const ProjectCard = ({ project }: { project: ProjectType }) => {
   const handleClick = () => {
     if (project.liveUrl) {
       window.open(project.liveUrl, "_blank");

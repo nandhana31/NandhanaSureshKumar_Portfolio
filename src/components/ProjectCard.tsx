@@ -89,3 +89,4 @@ const ProjectCard = ({ project }: { project: ProjectType }) => {
     </div>
   );
 }
+export default ProjectCard;

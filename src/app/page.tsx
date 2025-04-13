@@ -106,6 +106,7 @@ export default function Home() {
             Fun fact: With a developer&#8217;s logic and a designer&#8217;s intuition, I enjoy building experiences that look as good as they work.
           </p>
 
+
         </motion.div>
       </section>
 

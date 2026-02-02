@@ -59,12 +59,7 @@ export default function Home() {
         cursorOutlineRef.current.style.transform = `translate(${e.clientX - 16}px, ${e.clientY - 16}px)`;
       }
 
-      // const target = e.target as HTMLElement;
-      // if (target.tagName === 'A' || target.tagName === 'BUTTON' || target.closest('a') || target.closest('button')) {
-      //   setCursorVariant('hover');
-      // } else {
-      //   setCursorVariant('default');
-      // }
+      // ...existing code...
     };
     window.addEventListener('mousemove', handleMouseMove);
     return () => window.removeEventListener('mousemove', handleMouseMove);

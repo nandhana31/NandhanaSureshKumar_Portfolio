@@ -83,6 +83,21 @@ export const projects = [
         'Data Analysis'
       ]
     },
+    //Roamio
+    {
+      slug: 'Roam.io',
+      title: 'Roam.io',
+      description: 'This project builds an AI-driven travel planning platform that generates personalized, end-to-end itineraries from user preferences such as budget, activities, dining, and weather conditions.',
+      imageUrl: '/images/Roamio.png',
+      githubUrl: 'https://github.com/nandhana31/Roam.io',
+      pdfLink: '/Roamio.pdf',
+      technologies: [
+        'Python',
+        'Streamlit',
+        'CrewAI',
+        'AI Agents'
+      ]
+    },
     //FinCity
     {
       slug: 'FinCity',

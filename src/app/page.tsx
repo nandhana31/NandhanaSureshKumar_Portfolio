@@ -12,10 +12,8 @@ import emailjs from '@emailjs/browser';
 
 export default function Home() {
   const [showScroll, setShowScroll] = useState(false);
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [typedText, setTypedText] = useState('');
-  const [cursorVariant, setCursorVariant] = useState('default');
   const [scrollY, setScrollY] = useState(0);
   const [scrollProgress, setScrollProgress] = useState(0);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
@@ -61,12 +59,12 @@ export default function Home() {
         cursorOutlineRef.current.style.transform = `translate(${e.clientX - 16}px, ${e.clientY - 16}px)`;
       }
 
-      const target = e.target as HTMLElement;
-      if (target.tagName === 'A' || target.tagName === 'BUTTON' || target.closest('a') || target.closest('button')) {
-        setCursorVariant('hover');
-      } else {
-        setCursorVariant('default');
-      }
+      // const target = e.target as HTMLElement;
+      // if (target.tagName === 'A' || target.tagName === 'BUTTON' || target.closest('a') || target.closest('button')) {
+      //   setCursorVariant('hover');
+      // } else {
+      //   setCursorVariant('default');
+      // }
     };
     window.addEventListener('mousemove', handleMouseMove);
     return () => window.removeEventListener('mousemove', handleMouseMove);
